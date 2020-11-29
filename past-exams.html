@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Past Exams</title>
-    <link rel="stylesheet" href="./homework.css">
-    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="css/past-exams.css">
+    <link rel="stylesheet" href="css/all.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -40,11 +40,15 @@
                     <a class="nav-link dropdown-toggle" href="class-info.html" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Class Information</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item btn-outline-light" href="class-info.html#class-description">Class Description</a>
+                        <a class="dropdown-item btn-outline-light" href="class-info.html#class-description">Class
+                            Description</a>
                         <a class="dropdown-item btn-outline-light" href="class-info.html#syllabus">Syllabus</a>
-                        <a class="dropdown-item btn-outline-light" href="class-info.html#contact-info">Contact Information</a>
-                        <a class="dropdown-item btn-outline-light" href="class-info.html#class-times-locations">Class Times/Locations</a>
-                        <a class="dropdown-item btn-outline-light" href="class-info.html#grade-breakdown">Grade Breakdown</a>
+                        <a class="dropdown-item btn-outline-light" href="class-info.html#contact-info">Contact
+                            Information</a>
+                        <a class="dropdown-item btn-outline-light" href="class-info.html#class-times-locations">Class
+                            Times/Locations</a>
+                        <a class="dropdown-item btn-outline-light" href="class-info.html#grade-breakdown">Grade
+                            Breakdown</a>
                         <a class="dropdown-item btn-outline-light" href="class-info.html#policies">Policies</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item btn-outline-light" href="meet-profs.html">Meet your professors!</a>
@@ -78,7 +82,8 @@
     <div id="content">
         <div>
             <h2>2017 Exam 1</h2>
-            <p>For a PDF link, click <a href="https://course.ccs.neu.edu/cs2500/2017-exam1.pdf" target="_blank">here</a></p>
+            <p>For a PDF link, click <a href="https://course.ccs.neu.edu/cs2500/2017-exam1.pdf" target="_blank">here</a>
+            </p>
             <div>
                 <p><strong>Problem 1</strong>. Suppose you ran the program below in DrRacket. What would the output
                     be? For partial credit (in case you produce the wrong output), explain your work.</p>
@@ -95,15 +100,15 @@
         [else                        (string-append "Hello, "
                                                     (answer-to ans))]))</code></pre>
                 <pre><code>(check-it EX1)</code></pre>
-                <textarea name="message" rows="10" cols="100"
-                    placeholder="Write your answer here first before looking at the answers!"></textarea>
+                <textarea id="input1" name="message" rows="10" cols="100"
+                    placeholder="Write your answer here first before looking at the answer!"></textarea>
                 <br>
-                <a tabindex="0" class="btn btn-md btn-dark" role="button" data-toggle="popover" data-trigger="focus"
-                    title="SAMPLE response" data-content='tl;dr String "Greetings" is the output.
-                    The check-it function takes in EX1 with the answer struct where _to_ equals "Lois", _the_ equals 42, and _question_ equals the string=?
-                    expression. Within the check-it function itself, the first condition is false because 42 is less than 50 and the second condition is true
-                    because even though "CS2500" and "2500CS" are not the same, the #false boolean value for (answer-question ans) is negated by the _not_ to
-                    make it true. Therefore, the String "Greetings" is returned.'>Sample Response</a>
+                <a tabindex="0" id="maxwidth" class="btn btn-md btn-dark" role="button" data-toggle="popover" data-trigger="focus"
+               title="SAMPLE response" data-content='<pre>tl;dr String "Greetings" is the output.
+The check-it function takes in EX1 with the answer struct where _to_ equals "Lois", _the_ equals 42, and _question_ equals the string=?
+expression. Within the check-it function itself, the first condition is false because 42 is less than 50 and the second condition is true
+because even though "CS2500" and "2500CS" are not the same, the #false boolean value for (answer-question ans) is negated by the _not_ to
+make it true. Therefore, the String "Greetings" is returned.</pre>' data-html="true" style="max-width: 100%;">Sample Response</a>
             </div>
             <hr>
             <div>
@@ -116,14 +121,13 @@
     ; - #false
     ; Intepretation not needed for this problem</code></pre>
                 <p>Provide three completely distinct data examples for Singer.</p>
-                <textarea name="message" rows="10" cols="100"
-                    placeholder="Write your answer here first before looking at the answers!"></textarea>
+                <textarea id="input2" name="message" rows="10" cols="100"
+                    placeholder="Write your answer here first before looking at the answer!"></textarea>
                 <br>
                 <a tabindex="0" class="btn btn-md btn-dark" role="button" data-toggle="popover" data-trigger="focus"
-                    title="SAMPLE response"
-                    data-content='(define singer-1 (make-sling #true))
-                    (define singer-2 (make-high 2 "hello"))
-                    (define singer-3 #false)'>Sample Response</a>
+                    title="SAMPLE response" data-content='<pre>(define singer-1 (make-sling #true))
+(define singer-2 (make-high 2 "hello"))
+(define singer-3 #false)</pre>' data-html="true">Sample Response</a>
             </div>
             <hr>
             <div>
@@ -138,23 +142,24 @@
     ; a message along with a picture (make-image-tweet), or a retweet of
     ; another message (make-retweet)</code></pre>
                 <p>Develop the template(s) for any data definition(s) you see here.</p>
-                <textarea name="message" rows="10" cols="100"
-                    placeholder="Write your answer here first before looking at the answers!"></textarea>
+                <textarea id="input3" name="message" rows="10" cols="100"
+                    placeholder="Write your answer here first before looking at the answer!"></textarea>
                 <br>
                 <a tabindex="0" class="btn btn-md btn-dark" role="button" data-toggle="popover" data-trigger="focus"
-                    title="SAMPLE response"
-                    data-content="(define (tweet-templ tweet)
-                    (cond [(string? tweet) ...]
-                          [(image-tweet? tweet) ...]
-                          [(retweet? tweet) ...]))">Sample Response</a>
+                    title="SAMPLE response" data-content="(define (tweet-templ tweet)
+(cond [(string? tweet) ...]
+    [(image-tweet? tweet) ...]
+        [(retweet? tweet) ...]))" data-html="true">Sample Response</a>
                 <p>Develop test cases for tweet->text, a function that takes a Tweet and returns whatever
                     text is inside it.</p>
-                <textarea name="message" rows="10" cols="100"
-                    placeholder="Write your answer here first before looking at the answers!"></textarea>
+                <textarea id="input4" name="message" rows="10" cols="100"
+                    placeholder="Write your answer here first before looking at the answer!"></textarea>
                 <br>
                 <a tabindex="0" class="btn btn-md btn-dark" role="button" data-toggle="popover" data-trigger="focus"
-                    title="SAMPLE response"
-                    data-content="And here's some amazing content. It's very engaging. Right?">Sample Response</a>
+                    title="SAMPLE response" data-content='<pre>(check-expect (tweet->text "string") "string")
+(check-expect (tweet->text (make-image-tweet "image" (rectangle 100 100 "outline" "red"))) "image")
+(check-expect (tweet->text (make-retweet "this is a retweet")) "this is a retweet")</pre>' data-html="true">Sample
+                    Response</a>
             </div>
             <hr>
             <div>
@@ -177,12 +182,19 @@
           (record-name emp2)))</code></pre>
                 <p>Find two bugs in this function. For each one, explain what the problem is, and give a
                     test case that does not pass (i.e., either fails or crashes) to demonstrate the problem.</p>
-                <textarea name="message" rows="10" cols="100"
-                    placeholder="Write your answer here first before looking at the answers!"></textarea>
+                <textarea id="input5" name="message" rows="10" cols="100"
+                    placeholder="Write your answer here first before looking at the answer!"></textarea>
                 <br>
                 <a tabindex="0" class="btn btn-md btn-dark" role="button" data-toggle="popover" data-trigger="focus"
-                    title="SAMPLE response"
-                    data-content="And here's some amazing content. It's very engaging. Right?">Sample Response</a>
+                    title="SAMPLE response" data-content='<pre>; bug 1
+; the function returns the employee with the lower salary instead of higher
+#;(check-expect (max-earner (make-record "First" 80000)
+    (make-record "Second" 100000)) "Second")
+                                     
+; bug 2
+; if either (or both) of the employees has a bonus pay, the function will raise an error
+ #;(check-expect (max-earner (make-record "Third" (make-bonus 120000 2000))
+    (make-record "Fourth" 140000)) "Fourth")</pre>' data-html="true">Sample Response</a>
             </div>
             <hr>
             <div>
@@ -196,17 +208,24 @@
                 <p>Design the function sled-speed. This function takes in a DogSled and returns a Number
                     representing the fastest the sled and team can go. Assume that the sled itself can go
                     no faster than 100 miles per hour, or it would break apart, and assume that no dog can
-                    run faster than its maximum speed. Show <strong><em><u>all</strong></em></u> steps of the design recipe,
+                    run faster than its maximum speed. Show <strong><em><u>all</strong></em></u> steps of the design
+                    recipe,
                     including any
                     appropriate templates.</p>
                 <p><em>Note:</em> you may use any BSL functions dealing with numbers (number?, min, +, sqrt,
                     abs, etc) that you may find convenient.</p>
-                <textarea name="message" rows="10" cols="100"
-                    placeholder="Write your answer here first before looking at the answers!"></textarea>
+                <textarea id="input6" name="message" rows="10" cols="100"
+                    placeholder="Write your answer here first before looking at the answer!"></textarea>
                 <br>
                 <a tabindex="0" class="btn btn-md btn-dark" role="button" data-toggle="popover" data-trigger="focus"
-                    title="SAMPLE response"
-                    data-content="And here's some amazing content. It's very engaging. Right?">Sample Response</a>
+                    title="SAMPLE response" data-content='<pre>; sled-speed : DogSled -> Number
+; Given a DogSled, produces the fastest speed at which the sled and team can go
+(check-expect (sled-speed "sled") 100)
+(check-expect (sled-speed (make-team (make-team "sled" 20) 50)) 20)
+(check-expect (sled-speed (make-team (make-team (make-team "sled" 3) 40)70)) 3)
+(define (sled-speed ds)
+    (cond [(string? ds) 100]
+          [(team? ds) (min (sled-speed (team-sled ds)) (team-speed ds))]))</pre>' data-html="true">Sample Response</a>
             </div>
         </div>
     </div>
@@ -218,9 +237,9 @@
             document.writeln("<left>");
             document.write(m.substring(p, 0));
             document.writeln("</left>");
-          </script>
+        </script>
     </div>
-    <script src="past-exams.js" charset="utf-8"></script>
+    <script src="js/past-exams.js" charset="utf-8"></script>
 </body>
 
 </html>

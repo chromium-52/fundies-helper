@@ -17,7 +17,7 @@ url = "https://piazza.com/class/kd9bsy3vb5a2v3"
 driver = webdriver.Firefox(path)
 driver.get(url)
 
-csv_file = open('C:\\Users\\dukyo\\Desktop\\CS\\Fundies Helpers\\fundies-helper-react\\src\\scraper\\piazza_scrape.csv', 'w')
+csv_file = open('C:\\Users\\dukyo\\Desktop\\CS\\Fundies Helpers\\Fundies-Helper-2\\src\\scraper\\piazza_scrape.csv', 'w')
 csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['title'])
 
@@ -44,8 +44,11 @@ finally:
 
 # -----------------------------------------------------------------------------
 
+import urllib
+import urllib.request
 import pandas as pd
 
-piazza_scrape = pd.read_csv(r'C:\Users\dukyo\Desktop\CS\Fundies Helpers\fundies-helper-react\src\scraper\piazza_scrape.csv')
+# str = unicode(str, errors='ignore')
+piazza_scrape = pd.read_csv(r'C:\Users\dukyo\Desktop\CS\Fundies Helpers\Fundies-Helper-2\src\scraper\piazza_scrape.csv')
 piazza_scrape.dropna(inplace=True)
-piazza_scrape.to_csv(r'C:\Users\dukyo\Desktop\CS\Fundies Helpers\fundies-helper-react\src\scraper\piazza_scrape.csv', index=False)
+piazza_scrape.to_csv(r'C:\Users\dukyo\Desktop\CS\Fundies Helpers\Fundies-Helper-2\src\scraper\piazza_scrape.csv', index=False)

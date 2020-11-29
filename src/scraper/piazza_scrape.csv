@@ -1,71 +1,171 @@
-title
-About Exam 1
-Exam 1 Review Logistics
-Midterm logistics
-F. Vesely's Office Hours
-Prof Lerner office hours
-Amal Ahmed: office hours
-Autograder & Maximizing your HW score
-HW 6 release date/time
-HW5 Q2 elaboration
-Defining a new charm in problem 2
-Are we always required to write a helper function for each branches of cond?
-Lost points on optional extra credit
-HW5 2c
-hw5 2a
-HW5 2a
-Conds
-Is ugliness/legibility a factor in grading?
-HW5 Q2c
-"Is ""charm figure"" a FancyBracelet? HW5 2C"
-HW5 Q3a - Data Definitions
-Extension for HW5
-Ahmed: code for lecture 16
-Missing Honor Code
-Exam 1 for Exam conflict students
-Park lecture notes 10/14
-Park lecture notes 10/08
-How many jenga blocks?
-Exam Clarification
-Exam 1 -- alternate plans
-exam server -- working on it
-Where can we find the hourglass link for the exam?
-who/where to contact someone if we get kicked out
-Quick Exam Question
-Helper for HW5 2b?
-"Is ""color"" a data type?"
-Built-in Number Data Definitions
-Ahmed: lecture 15 code
-Union Data Definitions
-2016 Q 3
-Can we write too many data definitions?
-cp & paste on exam server?
-"If we are given data & asked to design a function, do we have to design the template for data?"
-No lists on Exam?
-HW 5 ex 2a
-2016 Exam question 3-b
-HW5 Q2a
-Do we have to follow the template at all times?
-Clarification on Check Expects
-HW5 Q2
-How many questions (roughly) are on the exam?
-FancyBracelet base case
-HW5 Q2
-HW5 Q1a
-Request for more time for the quizzes
-Big Bang
-How to retrieve my answers after submitting on Hourglass?
-Cheat Sheet
-Exam 1 2016 Question 5
-"2016 Practice Exam 1 Q4, how do you make a template for a FUNCTION?"
-HW5 Q3a
-10/13 lab
-positive integer vs natural number
-HW5 Q1b
-CS2500 on Teams
-Previous Exam Practice
-"question on hw 5, 3c"
-"For HW5 Q1 ""special moment"" matters or no?"
-HW5 Q2
-Exam 1 2016 answers
-Error locking down:On second monitor...
+title
+Tutoring Next Semester
+F. Vesely's Office Hours
+Prof Lerner office hours
+Amal Ahmed: office hours
+How to Create Abstractions for Functions with Different Numbers of Inputs
+Changing the Office Hours Queue: Requesting your Help
+Autograder & Maximizing your HW score
+Points taken off for adding in an extra functionality?
+Exam 2 Review session link
+"On the exam, can we define examples of data to assist our testing?"
+Organization with local definitions
+locals in tetris
+Count function?
+Add Space
+Problem 4 from the 2016 exam.
+Registering for Fundies 2 -- instructor signature required?
+The office hours queue is empty right now
+"Need clarification on ""shifting down by one row"" in HW 10 exercise 7"
+Exam 2 Review Logistics
+Park lecture notes 11/19
+solutions for practice exams
+Can a list of posns be an empty list?
+HW10 Row Clear / New Piece
+Office hours updates for Hw10
+Does the debris count as bricks that can be cleared?
+HW10 Exercise 4
+Olek’s Thursday 4-6 PM office hours moved to Sunday 2-4PM
+Ahmed: code for lec 30
+Lerner lecture notes
+"Park lecture notes 11/16, 11/18"
+Bad design practice: While Loops?
+Exam 2 Review Session Recorded?
+HW10 Q2
+HW 10 Exercise 4 empty list
+question about symbol in exercise 2
+Abstraction for Ex 5
+HW 10 #2
+HW10 Submission.
+Hw 10 question 8; how to return just the score
+List Abstractions on Exam
+HW 10 Exercise 5
+Ahmed: code for lecture 29
+Lerner lecture notes
+Where will we take the exam 2
+Ahmed: code for lecture 28
+Will Mutually Recursive Data and Multiple Complex Inputs be on Exam 2?
+Will there be sets on the midterm?
+Recording and Class Notes
+HW 10 Ex 2
+New structure for scoring
+HW 10 Row Clearing With Debris
+HW 10 Ex 2
+How do I print out a quotation mark?
+Will the answers to the practice midterms be posted/gone over?
+HW 10 Row clearing
+HW 10 Exercise 3
+HW10 Exercise 8
+HW10 Question 8
+Using foldl
+Booleans in print-sexpr function
+HW 9 #12
+When is HW10 due?
+Expected output for longer SExpr on Exercise 2
+Park lecture notes 11/12
+HW9 Exercise 7
+Lerner lecture today
+Siganture of constant in local that contains function
+Homework 9 Ex. 5
+Cond within Cond
+Problem 1
+Review Session
+HW 9 Ex 12
+Access posn-y in a list
+HW9 Ex 7
+HW 9 Exercise 11
+HW9 ex4 output
+HW9 ex4: Is empty a possible input for matrix->string
+Homework 10 Ex 3
+Spaces for hw 9 ex 4
+Row clearing
+Scoring on Homework 10
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""

@@ -10,6 +10,7 @@ Feedback with bootstrap modal
 Newsletter page
 Automatically update overview section
 Look at similar websites for stylistic inspiration
+Sample response popover wraps text
 
 Ideas:
 Feedback page to get direct feedback from users
@@ -39,8 +40,8 @@ Page with past game projects (snake, tetris, etc.)
 <html lang="en" dir="ltr">
 
 <head>
-  <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="./all.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/all.css">
   <meta charset="utf-8">
   <title>Fundies I Helper</title>
   <!-- <base href="/src/"> -->
@@ -57,13 +58,13 @@ Page with past game projects (snake, tetris, etc.)
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+  <!-- Processing -->
+  <script src="js/p5.js"></script>
+  <script src="js/header.js"></script>
 </head>
 
 <body>
-  <div id="header">
-    <h1 class="header-text">Fundies I Helper</h1>
-  </div>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-secondary bg-dark">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-secondary">
     <a class="navbar-brand" href="index.html">
       <img src="favicons/favicon.ico" width="30" height="30" alt="">
       Fundies I Helper
@@ -114,6 +115,13 @@ Page with past game projects (snake, tetris, etc.)
       </form> -->
     </div>
   </nav>
+  <div id="header">
+    <div class="header-text">
+      <h1>Fundies I Helper</h1>
+      <h1>CS 2500</h1>
+    </div>
+    <div id="processing"></div>
+  </div>
   <section>
     <article>
       <div id="overview">
@@ -141,8 +149,8 @@ Page with past game projects (snake, tetris, etc.)
         style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no" id="calendar"></iframe>
     </article>
   </section>
-
-  <!-- Begin Mailchimp Signup Form -->
+  <!--
+  Begin Mailchimp Signup Form
   <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
   <style type="text/css">
     #mc_embed_signup {
@@ -151,27 +159,32 @@ Page with past game projects (snake, tetris, etc.)
       margin: 1rem;
       width: 60%;
     }
+
     /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
   </style>
   <div id="mc_embed_signup">
-    <a href="https://us17.list-manage.com/survey?u=6205535f1f008c3a57a0534f6&id=edc546d665" target="_blank">Link to feedback form!</a>
+    <a href="https://us17.list-manage.com/survey?u=6205535f1f008c3a57a0534f6&id=edc546d665" target="_blank">Link to
+      feedback form!</a>
     <form action="https://naver.us17.list-manage.com/subscribe/post?u=6205535f1f008c3a57a0534f6&amp;id=ae5b8bfec6"
       method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
       novalidate>
       <div id="mc_embed_signup_scroll">
         <label for="feedback">Feedback!</label>
         <p>What can we improve on?</p>
-        <input type="text" value="" name="EMAIL" class="email" id="feedback" placeholder="Any feedback would be greatly appreciated! ... NOTE: DOESN'T ACTUALLY WORK ATM lol" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <input type="text" value="" name="EMAIL" class="email" id="feedback"
+          placeholder="Any feedback would be greatly appreciated! ... NOTE: DOESN'T ACTUALLY WORK ATM lol" required>
+         real people should not fill this in and expect good things - do not remove this or risk form bot signups
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
             name="b_6205535f1f008c3a57a0534f6_ae5b8bfec6" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Submit feedback!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        <div class="clear"><input type="submit" value="Submit feedback!" name="subscribe" id="mc-embedded-subscribe"
+            class="button"></div>
       </div>
     </form>
   </div>
-  <!--End mc_embed_signup-->
-
+  // End mc_embed_signup
+  -->
+  <script src="js/header.js"></script>
   <footer>
     <div id="footer">
       <p>&#169; 2020 Kenny Jung and Satwik Misra</p>
@@ -186,14 +199,9 @@ Page with past game projects (snake, tetris, etc.)
   </footer>
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- Load React. -->
-  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <!-- Load the React component. -->
-  <script src="../src/index.js" type="text/JSX"></script>
   <!-- ../src/src.js -->
   <script src="../src/src.js" charset="utf-8"></script>
+  <script src="js/all.js"></script>
 </body>
 
 </html>
